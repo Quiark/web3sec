@@ -25,6 +25,14 @@ Concise security summary for web3 users
  - plain, unwrapped ETH cannot be transferred this way
  - usually, full drain of wallet (all assets with one signature) will not happen (see Caveats)
 
+### YOLO signing on HW wallet
+You got your Ledger/Trezor/... as everyone has been telling you but then you don't really check what you're signing on the device and those buttons are so tiny and annoying, just click click done.
+
+**Risks**:
+ - You just signed something else than what you saw on Metamask wallet and the coins go to an attacker! Turns out your computer got compromised and showed you fake info!
+
+**Action steps**:
+ - Verify transaction details on the tiny screen of the HW wallet device each time. I know this is annoying and complicated but it will significantly improve your security.
 
 ## Caveats
 ### Smart wallets, batch transfers, Permit2
