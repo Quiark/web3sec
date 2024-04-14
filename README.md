@@ -28,7 +28,8 @@ Concise security summary for web3 users
 
 ## Caveats
 ### Smart wallets, batch transfers, Permit2
-TODO
+Uniswap's Permit2 contract, SAFE multisig wallet and upcoming ERC-4337 account abstraction and others may allow transferring multiple assets at once, making full drain possible in one transaction.
+However, they are all opt-in, you need to be using that kind of wallet or have a token approval for it to be possible.
 
 ## Advanced security precautions
 
