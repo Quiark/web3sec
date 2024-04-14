@@ -10,7 +10,7 @@ Concise security summary for web3 users
  - stolen ETH or any asset from your account after you've confirmed the signature (of some long hex string) on a malicious website using your wallet
 
 **Non-risks**:
- - usually, full drain of wallet (all assets with one signature) will not happen (see Caveats)
+ - usually, full drain of wallet (all assets gone with one signature) will not happen (see Caveats)
 
 ### Signature phishing
 **Action steps**:
@@ -23,7 +23,7 @@ Concise security summary for web3 users
 
 **Non-risks**:
  - plain, unwrapped ETH cannot be transferred this way
- - usually, full drain of wallet (all assets with one signature) will not happen (see Caveats)
+ - usually, full drain of wallet (all assets gone with one signature) will not happen (see Caveats)
 
 ### YOLO signing on HW wallet
 You got your Ledger/Trezor/... as everyone has been telling you but then you don't really check what you're signing on the device and those buttons are so tiny and annoying, just click click done.
