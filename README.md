@@ -28,3 +28,14 @@ Concise security summary for web3 users
 
 ## Caveats
 ### Smart wallets, batch transfers, Permit2
+TODO
+
+## Advanced security precautions
+
+These tips go a little beyond what normal computer users are recommended to do but frankly if you're in crypto, you're gonna need it.
+
+- To combat phishing, add all your important websites to bookmarks. Banks, email, work sites, DeFi apps. Verify the URL is correct. After that, *ONLY* ever go to that website via your trusted bookmark. Got an email asking you to do something in your bank acc? Sure, open browser and click your bookmark. Ignore link in email.
+- Login screen for bank / gmail / ... suddenly shows up? Well, I don't log in when they ask me. I log in by clicking my bookmark on a new tab first.
+- Multiple browsers. Use Firefox for work stuff, separate Chrome profile for crypto, another browser for risky / lewd sites. Another clean browser or profile with no extension for going to the bank.
+- (pro Windows users) Check your computer for malware yourself. (optional) get [Process Explorer](https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer) and learn to recognise every process there. Where is it from? Later you can find if there's some new process, that may be malware.
+- (pro users) Consider using a more intrusive firewall like [GlassWire](https://www.glasswire.com/) or Little Snitch. It will ask you to approve every single network connection. Kinda annoying but can potentially stop something.
