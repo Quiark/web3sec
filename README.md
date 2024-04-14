@@ -7,7 +7,7 @@ Concise security summary for web3 users
  - check that each wallet app you're using disables or disallows the `eth_sign` wallet API
 
 **Risk**:
- - stolen ETH or any asset from your account after you've approved signature (of some long hex string) on a malicious website
+ - stolen ETH or any asset from your account after you've confirmed the signature (of some long hex string) on a malicious website using your wallet
 
 **Non-risks**:
  - usually, full drain of wallet (all assets with one signature) will not happen (see Caveats)
@@ -19,7 +19,7 @@ Concise security summary for web3 users
 
 **Risks**:
  - typically, selling a NFT on marketplace for a very low price
- - in principle, any other signature based action can be taken after you approve the sig. Voting, selling coins or NFTs, ...
+ - in principle, any other signature based action can be taken after you confirm the sig in MM. Voting, selling coins or NFTs, ...
 
 **Non-risks**:
  - plain, unwrapped ETH cannot be transferred this way
